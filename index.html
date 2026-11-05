@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bio Link</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Màn hình "Click để vào" (cần để trình duyệt cho phép phát nhạc) -->
+  <div id="enter" class="enter">
+    <span><i class="fa-solid fa-hand-pointer"></i> Click để vào</span>
+  </div>
+
+  <!-- Nền động: video + gradient + hạt bay -->
+  <video id="bgVideo" class="bg-video" autoplay muted loop playsinline></video>
+  <div class="bg-gradient"></div>
+  <canvas id="particles"></canvas>
+
+  <!-- Nội dung chính -->
+  <main class="card" id="card">
+    <div class="avatar-wrap">
+      <img id="avatar" class="avatar" alt="Avatar">
+    </div>
+
+    <h1 id="name"></h1>
+    <p id="bio"></p>
+
+    <nav id="links" class="links"></nav>
+
+    <!-- Trình phát nhạc -->
+    <section class="player" id="player" hidden>
+      <div class="player-top">
+        <button id="playBtn" class="btn-icon" aria-label="Phát / Dừng">
+          <i class="fa-solid fa-play"></i>
+        </button>
+        <div class="track">
+          <div id="songTitle" class="song-title"></div>
+          <input id="seek" type="range" min="0" max="1000" value="0" step="1" aria-label="Tua nhạc">
+          <div class="times"><span id="cur">0:00</span><span id="dur">0:00</span></div>
+        </div>
+      </div>
+      <div class="vol">
+        <button id="muteBtn" class="btn-icon small" aria-label="Tắt / Bật tiếng">
+          <i class="fa-solid fa-volume-high"></i>
+        </button>
+        <input id="volume" type="range" min="0" max="1" step="0.01" value="0.5" aria-label="Âm lượng">
+      </div>
+    </section>
+  </main>
+
+  <audio id="audio" loop preload="metadata"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
