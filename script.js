@@ -26,7 +26,6 @@ const CONFIG = {
     { label: "Discord",   url: "https://discord.gg/kGrrjdZnr",         icon: "fa-brands fa-discord",    color: "#5865f2" },
     { label: "Instagram", url: "https://www.instagram.com/its.mnht/", icon: "fa-brands fa-instagram",  color: "#e1306c" },
     { label: "TikTok",    url: "https://www.tiktok.com/@its.mn_05",   icon: "fa-brands fa-tiktok",     color: "#25f4ee" },
-    { label: "YouTube",   url: ".....",  icon: "fa-brands fa-youtube",    color: "#ff0033" }
   ]
 };
 
