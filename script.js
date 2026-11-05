@@ -22,11 +22,11 @@ const CONFIG = {
   // Danh sách link: thêm / xoá / đổi thứ tự thoải mái
   // icon: tên icon Font Awesome (https://fontawesome.com/icons) ; color: màu icon khi hover
   links: [
-    { label: "Facebook",  url: "https://facebook.com/ten-cua-ban",  icon: "fa-brands fa-facebook-f", color: "#1877f2" },
-    { label: "Discord",   url: "https://discord.gg/ma-moi",         icon: "fa-brands fa-discord",    color: "#5865f2" },
-    { label: "Instagram", url: "https://instagram.com/ten-cua-ban", icon: "fa-brands fa-instagram",  color: "#e1306c" },
-    { label: "TikTok",    url: "https://tiktok.com/@ten-cua-ban",   icon: "fa-brands fa-tiktok",     color: "#25f4ee" },
-    { label: "YouTube",   url: "https://youtube.com/@ten-cua-ban",  icon: "fa-brands fa-youtube",    color: "#ff0033" }
+    { label: "Facebook",  url: "https://www.facebook.com/minhnhat.3125",  icon: "fa-brands fa-facebook-f", color: "#1877f2" },
+    { label: "Discord",   url: "https://discord.gg/kGrrjdZnr",         icon: "fa-brands fa-discord",    color: "#5865f2" },
+    { label: "Instagram", url: "https://www.instagram.com/its.mnht/", icon: "fa-brands fa-instagram",  color: "#e1306c" },
+    { label: "TikTok",    url: "https://www.tiktok.com/@its.mn_05",   icon: "fa-brands fa-tiktok",     color: "#25f4ee" },
+    { label: "YouTube",   url: ".....",  icon: "fa-brands fa-youtube",    color: "#ff0033" }
   ]
 };
 
